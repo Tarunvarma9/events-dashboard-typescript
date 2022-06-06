@@ -1,0 +1,84 @@
+.state-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(225, 225, 234, 0.859);
+    /* background-color: #e3e3e3; */
+    width: 100%; 
+}
+.heading{
+    text-align: center;
+}
+.table{
+    background-color: #fff;
+    cursor: pointer;
+}
+.state-heading{
+color: rgba(73,96,107,255);
+font-weight: 500;
+}
+
+
+.btn-hover {
+    width: 120px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #75b0b4, #57dce5);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.state-items{
+   text-align: center;
+}
+.download{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.delete-button{
+    border: none;
+    background-color: transparent;
+}
+.k-column-title{
+    font-weight: bold;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    
+}
+.export-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.export-button-container{
+    margin-left: auto;
+    margin-right: 50px;
+}
